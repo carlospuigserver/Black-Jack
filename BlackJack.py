@@ -49,8 +49,19 @@ listaCartas=list(cartas)
 #score, miras el valor de la carta que has elegido de la lista de carta
 #otro choice, eligo otra carta
 #segundo score, se va aculumando el valor de las cartas,si el valor de la primera es 5, y la segunda es 6, el valor de la segunda es 11, solo se sacan 2 cartas en este juego
+print("Ha seleccionado :", end=" ")
+carta=choice(listaCartas)
+score=cartas[carta]
+print(carta, end =" ")
+carta=choice(listaCartas)
+score += cartas[carta]
+print(carta, end =" ")
+print("  >>> su puntuación es de ", score)
+
 
 
 # hacer sample, barajar las cartas
 # esta es la parte de la banca
-
+main_banca= sample(listaCartas, 2)
+score_banca = sum(cartas[carta] for carta in main_banca)
+print("La banca tiene: {} {}  >> su score es {}".format(main_banca[0],main_banca[1],score_banca))
