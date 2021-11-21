@@ -18,8 +18,7 @@ cartas = {
     chr(0x1f0ad): 10, 
     chr(0x1f0ae): 10, 
 } 
-print(chr(0x1f0a1))
-print(chr(0x1f0a2))
+
 
 
 #En el joinkeys, relacionamos los valores con las cartas con el dibujo(primer print)
