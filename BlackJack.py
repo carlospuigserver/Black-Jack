@@ -39,5 +39,5 @@ print(chr(0x1f0a2))
 #(print 6) -6
 
 # hacer sample, barajar las cartas
-
+# esta es la parte de la banca
 
