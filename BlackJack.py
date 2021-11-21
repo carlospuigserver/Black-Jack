@@ -38,14 +38,18 @@ for carta, valor in cartas.items():
 
 #itineracion ordenada, que cada carta , coja el mismo numero siempre, y estas las ordenas, por ejemplo estas est,an ordenadas de menor a mayor(cuarto print)
 print("2\ Itineración ordenada sobre un diccionario")
+for carta in sorted(cartas.keys()):
+    print(" la carta {} tiene el valor {}". format(carta,cartas[carta])) 
 
-#Ahora creamos una lista del diccionario -5
+#Ahora creamos una lista del diccionario
+print("3\ Black Jack")
+listaCartas=list(cartas)
 
 #choice- para seleccionar una carta de la lista de cartas
 #score, miras el valor de la carta que has elegido de la lista de carta
 #otro choice, eligo otra carta
 #segundo score, se va aculumando el valor de las cartas,si el valor de la primera es 5, y la segunda es 6, el valor de la segunda es 11, solo se sacan 2 cartas en este juego
-#(print 6) -6
+
 
 # hacer sample, barajar las cartas
 # esta es la parte de la banca
