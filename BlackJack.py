@@ -21,14 +21,23 @@ cartas = {
 print(chr(0x1f0a1))
 print(chr(0x1f0a2))
 
-#En el joinkeys, relacionamos los valores con las cartas con el dibujo(primer print) -1
-#En el list cartas, hacemos una lista con los valores de las cartas(segundo print) -2
+
+#En el joinkeys, relacionamos los valores con las cartas con el dibujo(primer print)
+print("Cartas: {}".format(" ".join(cartas.keys())))
+
+#En el list cartas, hacemos una lista con los valores de las cartas(segundo print)
+print("Puntos: {}".format(list(cartas.values())))
 
 #En este print con el for, llevaremso a cabo la relacion de la carta con el valor, con el item, para que nos salga de uno en uno, no la lista entera, y con el format...
 #...  y los valores en el item, van del 0 hasta el numero de de valores que tengas, es decir, el valor 0 vale 11, el valor 1 vale 2, el for recorre toda la lista...
-#... el format, es darle cuerpo a la llave, que está definido en el primer print  (tercer print)  -3
+#... el format, es darle cuerpo a la llave, que está definido en el primer print  (tercer print)  
+print("1\ Itineración estándar sobre un diccionario")
+for carta, valor in cartas.items():
+    print("la carta {} tiene el valor {}".format(carta,valor))
 
-#itineracion ordenada, que cada carta , coja el mismo numero siempre, y estas las ordenas, por ejemplo estas est,an ordenadas de menor a mayor(cuarto print) -4
+
+#itineracion ordenada, que cada carta , coja el mismo numero siempre, y estas las ordenas, por ejemplo estas est,an ordenadas de menor a mayor(cuarto print)
+print("2\ Itineración ordenada sobre un diccionario")
 
 #Ahora creamos una lista del diccionario -5
 
