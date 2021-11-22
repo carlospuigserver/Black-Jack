@@ -1,6 +1,6 @@
 #Para empezar con la tarea, emezaremos creando una librería "cartas", donde se van a definir las cartas con las que jugaremos al BlackJack
 
-#di viene en corchetes, lista, si viene entre llaves, es un diccionario. El diccionario,te relaciona un valor con un numero, como las cartas del programa, y la lista solo el valor
+# El diccionario,te relaciona un valor con cualquier dato, como un número(las cartas del programa), y la lista solo enumera el valor
 
 from random import choice, sample   #choice elige dos cartas, y sample es la q se encarga de mostrarte las carts(caractéres,elememntos...)
 cartas = { 
