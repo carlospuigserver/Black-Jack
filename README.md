@@ -7,7 +7,17 @@ Para realizar est tarea, la cual es jugar de una forma simplificada al Black Jac
 
 El diagrama de flujo relacionado con nuestro trabajo es : 
 
-![Diagrama de flujo Black Jack]  (https://user-images.githubusercontent.com/91721643/142933630-48864308-c8d6-44f9-8044-84cfcd4ec173.png)
+
+
+
+
+<img width="686" alt="Diagrama de flujo Black Jack" src="https://user-images.githubusercontent.com/91721643/142933937-bfb05ffd-f8e3-4f19-ab43-afee46257fc0.png">
+
+
+
+
+
+
 
 El código del juego del Black Jack es el siguiente:
 
