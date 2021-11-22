@@ -18,7 +18,21 @@ El diagrama de flujo relacionado con nuestro trabajo es :
 
 
 
-De todas maneras, aquí tienes el link por si no se ve corréctamente la imagen
+De todas maneras, aquí tienes el link por si no se ve corréctamente la imagen:
+
+https://www.figma.com/file/ybn0OfdEiGzNbzB3UYU84C/Untitled?node-id=0%3A1
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
