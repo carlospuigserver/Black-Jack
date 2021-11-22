@@ -18,6 +18,11 @@ El diagrama de flujo relacionado con nuestro trabajo es :
 
 
 
+De todas maneras, aquí tienes el link por si no se ve corréctamente la imagen
+
+
+
+
 
 El código del juego del Black Jack es el siguiente:
 
